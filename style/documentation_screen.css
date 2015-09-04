@@ -1,0 +1,90 @@
+/*  
+    Title: documentation_screen.css
+    Type: StyleSheet
+    Project: Goodoc
+    Sets the layout of the documentation screen.
+*/
+
+/* Main Window */
+
+QMainWindow
+{
+    background-color: rgb(254,254, 246);
+}
+
+/* ToolBar */
+
+QToolBar {
+    border-bottom: 1px solid rgb(0, 100, 0);
+    /*background-color: rgb(150, 255, 150);*/
+    spacing: 10px; /* spacing between items in the tool bar */
+    background-color:  rgb(220, 255, 220);
+}
+
+QToolButton:hover
+{
+    background-color: rgb(169, 249, 154);
+    border: 1px solid rgb(0, 100, 0);
+}
+
+/* Push Button */
+
+QPushButton
+{
+
+    padding: 5px;
+    margin-left: 20em;/*auto;*/
+    margin-right: 20em;/*auto;*/
+
+    border-radius: 10px;
+    border: 1px solid rgb(0, 100, 0);
+}
+
+QPushButton:hover
+{
+    background-color: rgb(220, 255, 220);
+}
+
+SettingsDialog QPushButton{
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 40%;
+}
+
+/* Tab Widgets */
+
+QTabBar::tab
+{
+    border: 1px solid rgb(0, 100, 0);
+    border-bottom: none;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 7px 20px 7px 20px;
+    margin: 0px 2px 0px 2px;
+}
+
+QTabBar::tab::selected
+{
+    background-color: rgb(220, 255, 220);
+}
+
+QTabWidget::pane
+{
+    border: 1px solid rgb(0, 100, 0);
+}
+
+/* QListView */
+
+QListView::item:hover 
+{
+    background-color: rgb(220, 255, 220);
+}
+
+QListView::item:selected 
+{
+    background-color: rgb(220, 255, 220);
+    color: rgb(0, 100, 0);
+}
+
