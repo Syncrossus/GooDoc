@@ -1,0 +1,52 @@
+/* General */
+body{
+	background-color: rgb(255,244,229);
+	font-family: "georgia";
+	color: rgb(39,38,37);
+}
+
+table{
+	border-radius: 7px;
+	margin-bottom: 15px;
+	padding-bottom: 2px;
+	background-color: rgb(39,38,37);
+	width: 100%;
+}
+
+th{
+	border-radius: 5px;
+	/*color: rgb(255,241,221);*/
+	color: rgb(215,76,44);
+}
+
+td{
+	background-color: rgb(255,241,221);
+	display: block;
+}
+
+td:first-child{
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom: 1px solid rgb(39,38,37);
+	color: rgb(215,76,44);
+	margin-left: 4px;
+	margin-right: 4px;
+	margin-top: 2px;
+
+	-webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+td:nth-child(2){
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	/*border-top-right-radius: 5px;*/
+	padding-left: 25px;
+	margin-left: 4px;
+	margin-right: 4px;
+	margin-bottom: 2px;
+}

@@ -1,0 +1,85 @@
+/*
+    name: PresetStyle4
+    projet: GooDoc
+    author: Hugo Martin
+    date: 18/05/2015
+*/
+
+
+/* General */
+
+body
+{
+    text-align: justify;
+    font-family: "helvetica", "sans-serif";
+    font-size: 1.1em;
+}
+
+h1
+{
+    font-weight: normal;
+    font-size: 4em;
+}
+/* Python Class/Functions */
+
+
+h2
+{
+    border-bottom: 1px solid rgb(196, 207, 229);
+    padding: 10px;
+}
+
+section
+{
+    border-bottom: 1px solid rgb(75, 105, 170);
+}
+
+/* Methods/Attributs table */
+
+table 
+{
+    width: 100%;
+    border-spacing: 20px;
+    margin-bottom: 10px;
+
+}
+
+th
+{
+    color: rgb(53, 76, 123);
+    border-bottom: 1px solid rgb(135, 158, 203);
+    text-align: left;
+    font-size: 1.2em;
+    font-weight: normal;
+
+    margin-bottom: 10px;
+}
+
+
+td
+{
+    display: block;
+    border: 1px solid rgb(168, 184, 217);
+    border-radius: 0px 0px 5px 5px;
+    box-shadow: 5px 5px 10px rgb(200, 200, 200);
+    padding: 10px;
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+td:first-child
+{
+    background: linear-gradient(rgb(250, 250, 250), rgb(220, 225, 240));
+
+    color: rgb(35, 55, 85);
+    font-weight: bold;
+
+    border-radius: 5px 5px 0px 0px ;
+    box-shadow: 5px 3px 10px rgb(175, 175, 175);
+
+}

@@ -1,0 +1,59 @@
+/*  
+    Title: style_screen.css
+    Type: StyleSheet
+    Project: Goodoc
+    Sets the layout of the style screen.
+*/
+
+/* Main Window */
+
+QMainWindow
+{
+    background-color: rgb(254,254, 246);
+}
+
+/* Tab Widgets */
+
+QTabBar::tab
+{
+    border: 1px solid rgb(0, 100, 0);
+    border-bottom: none;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 7px 20px 7px 20px;
+    margin: 0px 2px 0px 2px;
+}
+
+QTabBar::tab::selected
+{
+    background-color: rgb(220, 255, 220);
+}
+
+QTabBar::close-button:selected
+{
+    image: url('img/close_selected.png');
+    margin: 2px;
+}
+
+QTabBar::close-button
+{
+    image: url('img/close.png');
+    margin: 2px;
+}
+
+/* Push Button */
+
+QPushButton
+{
+    padding: 5px;
+    margin-left: 20em;/*auto;*/
+    margin-right: 20em;/*auto;*/
+
+    border-radius: 10px;
+    border: 1px solid rgb(0, 100, 0);
+}
+
+QPushButton:hover
+{
+    background-color: rgb(220, 255, 220);
+}
