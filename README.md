@@ -8,3 +8,5 @@ What defines GooDoc as a unique documentation generator :
 - GooDoc comes with 4 Style Sheets demonstrating the possibilites offered by its simple HTML structure.
 - GooDoc comes with an easy-to-use GUI allowing for easy adding of Style Sheets and intuitive documentation configuration.
 - GooDoc can alternatively be used to add a Style Sheet to many HTML files at once!
+
+A Windows installer is available [here](https://github.com/BAR-Rei/GooDoc/releases/download/v1.0/goodocInstall.exe).
